@@ -3,28 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment - Mergington High School</title>
+    <meta
+      name="description"
+      content="Assignment details, files, and instructions for Mergington High School Computer Science."
+    />
+    <title>Assignment Details - Mergington High School</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
+    <a href="#main-content" class="nav-back">Skip to assignment content</a>
+
     <header class="assignment-header">
       <div class="container">
-        <a href="../../index.html" class="nav-back">← Back to Assignments</a>
-        <h1 id="assignment-title">Loading Assignment...</h1>
+        <nav aria-label="Breadcrumb">
+          <a href="../../index.html" class="nav-back">← Back to Assignments</a>
+        </nav>
+        <h1 id="assignment-title">Loading assignment...</h1>
       </div>
     </header>
 
-    <main class="main">
+    <main id="main-content" class="main">
       <div class="container">
-        <div id="downloads-section" class="downloads-section" style="display: none">
+        <section id="downloads-section" class="downloads-section" style="display: none" aria-label="Assignment files">
           <h3>📁 Assignment Files</h3>
           <div id="download-links"></div>
-        </div>
+        </section>
 
-        <div id="assignment-content" class="assignment-content">
+        <article id="assignment-content" class="assignment-content" aria-live="polite">
           <div class="loading">Loading assignment content...</div>
-        </div>
+        </article>
       </div>
     </main>
 

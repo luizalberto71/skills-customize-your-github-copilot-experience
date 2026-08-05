@@ -1,12 +1,12 @@
-# 📘 Assignment: Games in Python
+# 📘 Atividade: Games in Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
 Construir uma versão em linha de comando do jogo da forca para praticar seleção aleatória, manipulação de strings, loops e condicionais. Ao final, você terá um jogo funcional com controle de tentativas, validação básica de entrada e mensagens claras de vitória ou derrota.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Setup the Hangman Game
+### 🛠️ Configure o Jogo da Forca
 
 #### Descrição
 Prepare a base do jogo definindo a lista de palavras, escolhendo uma palavra secreta aleatória e inicializando o estado inicial da partida.
@@ -20,7 +20,7 @@ O programa concluído deve:
 - Inicializar `incorrect_guesses` com `0` e `max_incorrect` com um valor fixo (por exemplo, `6`).
 - Exibir ao iniciar o jogo a quantidade máxima de erros permitidos.
 
-### 🛠️ Implement the Game Loop
+### 🛠️ Implemente o Loop do Jogo
 
 #### Descrição
 Implemente o loop principal para receber palpites de letras, atualizar o progresso da palavra e encerrar o jogo com vitória ou derrota.
